@@ -4,11 +4,12 @@
 package circle;
 
 /**
- * @author ADD YOUR NAME
+ * @author Amogh
  *
  */
 
 // TODO Complete the code
+
 
 public class Circle extends GraphicObject {
 
