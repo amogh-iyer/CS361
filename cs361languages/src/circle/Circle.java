@@ -59,6 +59,11 @@ public class Circle extends GraphicObject {
 	/**
 	 * @return the Circle with this EXACT format Circle: centerX = ... centerY = ... radius = ...
 	 */
+	public String toString() {
+		return "Circle: " + "centerX = " + centerX +" "+ "centerY = " centerY + " " + "radius = " + radius;
+	}
+	
+	
 	@Override
 	public String toString() {
 		return super.toString();
@@ -69,6 +74,7 @@ public class Circle extends GraphicObject {
 	/**
 	 * @return true if this and obj have the same values for
 	 * centerX, centerY and radius
+	 
 	 */
 	@Override
 	public boolean equals(Object obj) {
