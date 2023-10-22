@@ -74,8 +74,12 @@ public class Circle extends GraphicObject {
 	/**
 	 * @return true if this and obj have the same values for
 	 * centerX, centerY and radius
+	 * 
 	 
 	 */
+	
+	
+	public boolean 
 	@Override
 	public boolean equals(Object obj) {
 		return super.equals(obj);
